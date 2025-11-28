@@ -26,7 +26,5 @@ print("--------------Your order!----------------")
 for food in cart:
     total += menu.get(food)
     print(food, end = " ")
-
 print(f"\nTotal is: ${total:.2f}")
 #print(cart) to see the cart requested
-
